@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.hide_scrollbar::-webkit-scrollbar{
+  display: none;
+}
+.btn_dim_yellow{
+  @apply bg-[#CCF32F] px-8 py-2 text-black transition-all hover:bg-[#cafd00] font-semibold font-Inter md:max-w-[250px]
+}
+
+.max-container{
+  @apply mx-auto max-w-[1440px]
+}
+
+.padding-container{
+  @apply px-6 lg:px-20 
+}
+
+.button_black{
+  @apply text-black border border-black
+}
