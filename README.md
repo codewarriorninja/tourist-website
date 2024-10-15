@@ -40,8 +40,6 @@ This project showcases clean code, modern design practices, and smooth interacti
 
 
 ![Hero](/public/landingPage.png)
-![destination](/public/destination.png.png)
+![destination](/public/destination.png)
 ![Trip](/public/Trip.png)# travel-agency
 
-# travel-agency
-# travel-agency

@@ -10,7 +10,7 @@ const Footer = () => {
     <section className="w-full pt-16 pb-4">
       <div className="max-container padding-container">
         <div className="flex justify-between items-center flex-wrap gap-8 pb-7">
-        <Image src='/secondLogo.png' alt="logo" width={154} height={41} priority className="max-sm:mx-auto"/>
+        <Image src='/SecondLogo.png' alt="logo" width={154} height={41} priority className="max-sm:mx-auto"/>
         <ul className="flex items-center justify-center flex-wrap gap-8 text-black font-Inter max-sm:mx-auto">
            {NavLinks.map((navlink) => (
             <li key={navlink.key}>
